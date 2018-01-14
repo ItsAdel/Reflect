@@ -203,6 +203,7 @@ public class MainActivity extends AppCompatActivity implements MeshStateListener
         if (state == MeshStateListener.SUCCESS) {
             try {
                 // Attempt to bind to a port.
+                mm.setPattern("testttt");
                 MeshManager.Result r = mm.bind(4321);
                 if (r.result == FAILURE) {
                     component.setStatus("Failed to bind.");

@@ -18,9 +18,9 @@ repositories {
 
 buildscript {
     ext {
-        artifactory_app_username = "insertyourusername"
-        artifactory_app_password = "insertyourpasswordhash"
-        artifactory_app_key = "insertyourkey"
+        artifactory_app_username = "sebcarlucci"
+        artifactory_app_password = "72ede68921c188523932717a5d34ed2a"
+        artifactory_app_key = "0x4f516019ab86b82edeee2774cded33ff0152f34e"
     }
     repositories {
         google()
